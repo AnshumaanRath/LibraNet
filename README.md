@@ -3,7 +3,7 @@
 
 # 📚 LibraNet
 
-LibraNet is an **library management system** that supports **Books, AudioBooks, and E-Magazines**.  
+LibraNet is a **library management system** that supports **Books, AudioBooks, and E-Magazines**.  
 It provides borrowing, returning, fine calculation, and specialized behaviors (like playing audiobooks and archiving e-magazines).
 
 ---
