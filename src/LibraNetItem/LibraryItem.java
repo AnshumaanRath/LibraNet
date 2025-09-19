@@ -42,7 +42,7 @@ public abstract class LibraryItem {
 
     public void borrow(String duration) throws CustomException{
         if(!available){
-            throw new CustomException("Iem already borrowed: "+title);
+            throw new CustomException("Item already borrowed: "+title);
         }
         try{
             int days = parse(duration);

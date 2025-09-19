@@ -83,7 +83,7 @@ public class Main {
             library.add(b1);
             System.out.println(" Book added successfully.");
         } catch (InputMismatchException e) {
-            System.err.println("️ Page count must be a number.");
+            System.err.println("️ Enter Data according to the DataType");
             sc.nextLine();
         }
     }
@@ -104,7 +104,7 @@ public class Main {
             library.add(a1);
             System.out.println(" AudioBook added successfully.");
         } catch (InputMismatchException e) {
-            System.err.println("️ Duration must be a number.");
+            System.err.println("️ Enter Data according to the DataType");
             sc.nextLine();
         }
     }
@@ -125,7 +125,7 @@ public class Main {
             library.add(m1);
             System.out.println(" EMagazine added successfully.");
         } catch (InputMismatchException e) {
-            System.err.println("️ Issue number must be a number.");
+            System.err.println("️ Enter Data according to the DataType");
             sc.nextLine();
         }
     }
